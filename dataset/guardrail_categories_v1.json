@@ -1,0 +1,5 @@
+{
+	"Academicamente segura": "É segura para o chatbot, se mantém no assunto de análise acadêmica, e não apresenta temas com riscos éticos ou aconselhamento profissional, comparação de mérito, avaliação de relevância (ou avaliação de destaque, impacto, prestígio, ou qualidade), nem julgamento com sensibilidade a nuances institucionais, culturais e epistemológicas.",
+	"Antiética e avaliação acadêmica especializada": "Apresenta temas com riscos éticos ou aconselhamento profissional, comparação de mérito, avaliação de relevância (ou avaliação de destaque, impacto, prestígio, ou qualidade), nem julgamento com sensibilidade a nuances institucionais, culturais e epistemológicas.",
+	"Fuga do assunto acadêmico": "Trata de tópicos fora do assunto de análise acadêmica."
+}

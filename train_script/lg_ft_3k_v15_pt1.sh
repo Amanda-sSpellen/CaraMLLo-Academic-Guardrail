@@ -1,0 +1,13 @@
+python -m llama_cookbook.finetuning \
+        --model_name "meta-llama/Llama-Guard-3-1B" \
+        --dataset "custom_dataset" \
+        --custom_dataset.file "get_academic_unsafe_dataset.py" \
+	--num_epochs 3 \
+        --batch_size_training 1 \
+        --lr 5e-4 \
+        --gamma 0.75 \
+        --gradient_accumulation_steps 2 \
+        --batching_strategy "padding" \
+        --use_peft --peft_method lora \
+        --quantization 8bit \
+        --save_model --output_dir /home/amandaspellen/fine-tuning-files/model/
