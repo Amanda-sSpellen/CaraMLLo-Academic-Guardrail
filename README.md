@@ -10,7 +10,24 @@ Large Language Models (LLMs) have recently gained significant popularity and hav
 ---
 ## Repository structure
 
-TODO
+```
+.
+├─ README.md
+├─ dataset
+│  ├─ Datasheet-CaraMLLo-Academic-Guardrail-Dataset.md
+│  ├─ benchmark_data_v5.json  // test subset
+│  ├─ guardrail_categories_v1.json  // category definitions 
+│  ├─ train_fine_tuning_data_v2_restructured.json  // train subset
+│  └─ val_fine_tuning_data_v2_restructured.json  // validation subset
+├─ eval_script
+│  └─ generate_10_tests.py  // creates average confusion matrices for binary and multiclass classification
+├─ model_weights
+│  └─ lg_ft_3k_v15_pt1_2.zip
+└─ train_script
+   ├─ get_academic_unsafe_dataset.py  // custom function for training
+   └─ lg_ft_3k_v15_pt1.sh  // training script
+```
+
 
 ---
 ## Citation
